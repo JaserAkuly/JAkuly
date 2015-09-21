@@ -1,0 +1,17 @@
+.navbar-brand>img {
+    display: block;
+    padding-top: inherit;
+    margin-top: -53px;
+    height: 107px;
+    width: 135px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand>img {
+        display: block;
+        padding-top: inherit;
+        margin-top: -48px;
+        height: 95px;
+        width: 135px;
+    }
+}
