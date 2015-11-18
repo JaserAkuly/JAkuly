@@ -263,6 +263,12 @@ p.personal-phrase i.fa-quote-left{
 .navbar-brand {
 	padding-top: auto;
 }
+
+.navbar-tagline {
+	padding-top: auto;
+	font-size: 18px;
+	color: #7e7e7e;
+}
 .navbar-inverse {
 	background-image:none;
 	background-color: #fff;
