@@ -257,7 +257,7 @@ p.personal-phrase i.fa-quote-left{
 /****************  MENU    ************/
 
 .brand {
-	height: 100px;
+	height: 80px;
 	margin-top: -42px;
 }
 .navbar-brand {
@@ -267,7 +267,7 @@ p.personal-phrase i.fa-quote-left{
 .navbar-tagline {
 	height: 10px;
 	margin-top: -40px;
-	font-size: 10px;
+	font-size: 15px;
 }
 .navbar-inverse {
 	background-image:none;
