@@ -4,7 +4,7 @@
  * Main AngularJS Web Application
  */
 var app = angular.module('JAkuly', [
-  'ngRoute', 'ui.bootstrap', 'ngAnimate', 'ngMaterial'
+  'ngRoute', 'ui.bootstrap', 'ngAnimate', 'ngMaterial', 'xml'
 ]);
 
 /**
@@ -172,7 +172,7 @@ app.controller('TabsDemoCtrl', function ($scope, $window) {
 });
 
 // monitor animation 
-app.controller('HomeCtrl', function ($scope, $interval) {
+app.controller('HomeCtrl', function ($scope, $interval, $http) {
 
      var duration = 1600, steps = 3, step = 1;
 
@@ -187,6 +187,10 @@ app.controller('HomeCtrl', function ($scope, $interval) {
          }
     }, duration);
 
+    $http.get('http://jakuly.me/feed/').success(function (data) {
+        $scope.blogs = data.channel.item;
+        console.log(data.channel.item);
+    });
 });
 
 app.controller('AccordionDemoCtrl', function ($scope) {
@@ -341,6 +345,21 @@ app.factory("DataService", function () {
         detailsprod: storeDetails
     };
 });
+
+app.config(function ($httpProvider) {
+    $httpProvider.interceptors.push('xmlHttpInterceptor');
+});
+
+//app.factory("getData", function () {
+//    $resource('http://jakuly.me/feed/');
+//    //getdata
+//    //set this to a specific route in route config so route returns this data to the view
+//
+//    var x2js = new X2JS();
+//    var xmlText = "http://jakuly.me/feed/";
+//    var jsonObj = whatever.json( xmlText );
+//
+//});
 
 app.controller('headerCtrl', function($scope, $location, $anchorScroll) {
     $scope.scrollTo = function(id) {

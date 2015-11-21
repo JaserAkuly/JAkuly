@@ -5650,3 +5650,72 @@ you can use the generic selector below, but it's slower:
 	border-bottom: 1px solid #ccc;
     padding: 5px 0;
 }
+
+
+/** Loading Bar Text Animation CSS **/
+.cd-words-wrapper {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+.cd-words-wrapper b {
+	display: inline-block;
+	position: absolute;
+	white-space: nowrap;
+	left: 0;
+	top: 0;
+}
+.cd-words-wrapper b.is-visible {
+	position: relative;
+}
+.no-js .cd-words-wrapper b {
+	opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+	opacity: 1;
+}
+
+/* --------------------------------
+
+xloading-bar
+
+-------------------------------- */
+.cd-headline.loading-bar span {
+	display: inline-block;
+	padding: .01em 0;
+}
+.cd-headline.loading-bar .cd-words-wrapper {
+	overflow: hidden;
+	vertical-align: top;
+}
+.cd-headline.loading-bar .cd-words-wrapper::after {
+	/* loading bar */
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	width: 0;
+	background: #16a7a7;
+	z-index: 1;
+	-webkit-transition: width 0.3s -0.1s;
+	-moz-transition: width 0.3s -0.1s;
+	transition: width 0.3s -0.1s;
+}
+.cd-headline.loading-bar .cd-words-wrapper.is-loading::after {
+	width: 100%;
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	transition: width 1s;
+}
+.cd-headline.loading-bar b {
+	top: .05em;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+.cd-headline.loading-bar b.is-visible {
+	opacity: 1;
+	top: 0;
+}
