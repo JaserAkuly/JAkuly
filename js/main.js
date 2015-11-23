@@ -187,7 +187,7 @@ app.controller('HomeCtrl', function ($scope, $interval, $http) {
          }
     }, duration);
 
-    $http.get('http://jakuly.me/feed/').success(function (data) {
+    $http.get('http://jakuly.me').success(function (data) {
         $scope.blogs = data.channel.item;
         console.log(data.channel.item);
     });
