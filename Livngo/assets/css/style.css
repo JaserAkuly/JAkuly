@@ -1,0 +1,767 @@
+@font-face {
+	font-family: BlendaScript;
+	src: url(../fonts/BlendaScript.otf);
+}
+
+@font-face {
+	font-family: Copperplate;
+	src: url(../fonts/Copperplate.ttc);
+}
+
+@font-face {
+	font-family: GrandHotel;
+	src: url(../fonts/GrandHotel-Regular.otf);
+}
+
+@font-face {
+	font-family: QuattrocentoBold;
+	src: url(../fonts/QuattrocentoSans-Bold.otf);
+}
+
+@font-face {
+	font-family: QuattrocentoItalic;
+	src: url(../fonts/QuattrocentoSans-Italic.otf);
+}
+
+@font-face {
+	font-family: QuattrocentoRegular;
+	src: url(../fonts/QuattrocentoSans-Regular.otf);
+}
+
+@font-face {
+	font-family: Rokkitt;
+	src: url(../fonts/Rokkitt.otf);
+}
+
+* {
+	font-family: Rokkitt;
+	font-size: 19px;
+}
+
+header .navbar-default {
+	background-color: #fff;
+}
+
+header nav {
+	margin-bottom: 0 !important;
+}
+
+header nav .navbar {
+	min-height: 75px;
+}
+
+header nav .navbar-brand {
+	padding: 6px;
+	height: 73px;
+}
+
+header nav .navbar-nav {
+	padding: 16px 15px;
+}
+
+header nav .navbar-nav .nav-btn {
+	padding: 7px 0;
+	margin-right: 8%;
+	float: left;
+}
+
+header nav .navbar-nav .nav-btn a {
+	padding: 0 10px;
+	color: #222;
+	font-family: Rokkitt;
+}
+
+header nav .navbar-nav .nav-btn a:hover {
+	color: #29c;
+	text-decoration: none;
+}
+
+header nav .navbar-nav .select-nav {
+	float: left;
+	padding: 3px 0;
+}
+
+header nav .navbar-nav .select-nav .form-control {
+	border: 2px solid #29c;
+	border-radius: 0;
+	font-size: 19px;
+}
+
+header nav .navbar-nav .btn {
+	padding: 6px 8px;
+}
+
+header .header-image {
+	height: 800px;
+	width: 100%;
+	background: url(../img/travel-interna.jpg) no-repeat;
+	background-size: cover;
+}
+
+header .header-image .himg-block {
+	float: right;
+	margin-top: 45px;
+	text-align: center;
+}
+
+header .header-image .himg-block h1 {
+	font-family: GrandHotel;
+	font-size: 50pt;
+}
+
+header .header-image .himg-block p {
+	font-size: 24pt;
+}
+
+.btn {
+	padding: 15px 6px;
+	border-radius: 0;
+	font-size: 19px;
+}
+
+.btn .btn-border {
+	padding: 11px 40px;
+	border: 1px solid #fff;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #222;
+	border-color: transparent;
+}
+
+.btn-primary {
+	background-color: #29c;
+	border-color: transparent;
+}
+
+.btn-warning {
+	background-color: #fc2;
+}
+
+h1 {
+	font-family: GrandHotel;
+	font-size: 50pt;
+}
+
+p {
+	font-size: 24pt;
+}
+
+#traveler .traveler-block {
+	float: right;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#traveler .traveler-images {
+	position: relative;
+	margin-top: 70px;
+}
+
+#traveler .traveler-images img {
+	border: 1px solid #e8e8e8;
+	border-radius: 50%;
+}
+
+#traveler .traveler-images .sound {
+	position: absolute;
+	left: 67px;
+	height: auto;
+	width: 120px;
+}
+
+#traveler .traveler-images .burger {
+	position: absolute;
+	top: 109px;
+	left: 100px;
+	width: 100px;
+	height: auto;
+}
+
+#traveler .traveler-images .sun {
+	position: absolute;
+	top: 33px;
+	left: 201px;
+	height: auto;
+	width: 120px;
+}
+
+#traveler .traveler-images p {
+	position: relative;
+	width: 228px;
+	margin: 0 auto;
+	top: 210px;
+	font-family: QuattrocentoItalic;
+	font-size: 15pt;
+	color: #99a;
+}
+
+#traveler .treveler-quote {
+	position: relative;
+	width: 100%;
+	margin-top: 90px;
+	background: url(../img/cool-men.png) no-repeat;
+	background-position: 50% 0;
+	background-size: 210px;
+	-webkit-transform-origin: right center;
+	    -ms-transform-origin: right center;
+	        transform-origin: right center;
+}
+
+#traveler .treveler-quote .trevel-cont {
+	padding-top: 175px;
+	text-align: center;
+}
+
+#traveler .treveler-quote::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 40px;
+	background-color: #fc0;
+	z-index: -1;
+	bottom: 0;
+	-webkit-transform-origin: right bottom;
+	    -ms-transform-origin: right bottom;
+	        transform-origin: right bottom;
+	-webkit-transform: skewY(-2deg);
+	    -ms-transform: skewY(-2deg);
+	        transform: skewY(-2deg);
+}
+
+#better .better-img {
+	min-height: 700px;
+	height: 100%;
+	width: 100%;
+	background: url(../img/travel.jpg) no-repeat;
+	background-size: cover;
+}
+
+#better .better-img .better-block {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#better .better-img .better-block h1,
+#better .better-img .better-block p {
+	color: #fff;
+}
+
+#better .better-btn {
+	position: relative;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#better .better-btn h1 {
+	text-align: center;
+}
+
+#better .better-btn p {
+	text-align: center;
+}
+
+#better .better-btn p a {
+	margin-left: 2%;
+}
+
+#better .better-btn .btn {
+	padding: 15px 6px;
+}
+
+#better .better-btn .btn .btn-border {
+	padding: 12px 51px;
+}
+
+#better .better-btn::before {
+	content: '';
+	width: 100%;
+	height: 66px;
+	position: absolute;
+	background-color: #fff;
+	z-index: 0;
+	top: -66px;
+	bottom: 0;
+	-webkit-transform-origin: right bottom;
+	    -ms-transform-origin: right bottom;
+	        transform-origin: right bottom;
+	-webkit-transform: skewY(-2deg);
+	    -ms-transform: skewY(-2deg);
+	        transform: skewY(-2deg);
+}
+
+#better .better-btn::after {
+	content: '';
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	background-color: #fff;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform-origin: right bottom;
+	    -ms-transform-origin: right bottom;
+	        transform-origin: right bottom;
+	-webkit-transform: skewY(-2deg);
+	    -ms-transform: skewY(-2deg);
+	        transform: skewY(-2deg);
+}
+
+#memories {
+	position: relative;
+	min-height: 700px;
+	height: 100%;
+	width: 100%;
+	background: url(../img/woman.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#memories h1 {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+}
+
+#waiting .waiting-content {
+	overflow: auto;
+	margin: 90px 0 75px 0;
+	text-align: center;
+}
+
+#waiting .waiting-content .image-waiting img {
+	width: 210px;
+	height: auto;
+}
+
+#waiting .waiting-content .waiting-text h1 hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 70%;
+	border: 0;
+	border-top: 1px solid #fc2;
+}
+
+footer {
+	background: #29c;
+}
+
+footer .logo-in-footer {
+	overflow: auto;
+}
+
+footer .logo-in-footer .footer-logo {
+	float: left;
+	margin-top: 30px;
+}
+
+footer .logo-in-footer .footer-quote img {
+	height: auto;
+	width: 45px;
+}
+
+footer .footer-blockquote {
+	margin-top: 37px;
+}
+
+footer .footer-blockquote p {
+	margin: 0;
+	font-family: QuattrocentoRegular;
+	font-size: 12pt;
+	color: #fff;
+}
+
+footer .footer-blockquote p .gold {
+	color: #fc2;
+}
+
+footer .footer-blockquote .author-blockquote {
+	float: right;
+	font-family: GrandHotel;
+	font-size: 26pt;
+}
+
+footer .footer-menu {
+	margin-top: 85px;
+	text-align: center;
+}
+
+footer .footer-menu ul li {
+	display: inline-block;
+	color: #fff;
+}
+
+footer .footer-menu ul li a {
+	font-family: QuattrocentoRegular;
+	font-size: 12pt;
+	color: #fff;
+}
+
+footer .footer-menu ul li::after {
+	content: "|";
+	padding: 0 20px;
+}
+
+footer .footer-menu ul li:last-child::after {
+	content: "";
+}
+
+footer .face {
+	margin-top: 10px;
+	text-align: center;
+}
+
+footer .face img {
+	height: auto;
+	width: 50px;
+}
+
+footer .footer-text {
+	margin: 15px 0 50px 0;
+}
+
+footer .footer-text p {
+	font-family: QuattrocentoRegular;
+	font-size: 12pt;
+	color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+header .container {
+	width: inherit;
+}
+
+header nav .navbar-nav .nav-btn {
+	margin-right: 0%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+#traveler .traveler-images {
+	margin-bottom: 200px;
+}
+
+#traveler .traveler-images .sound {
+	left: 235px;
+}
+
+#traveler .traveler-images .burger {
+	left: 280px;
+}
+
+#traveler .traveler-images .sun {
+	left: 390px;
+}
+
+#traveler .treveler-quote {
+	background: url(../img/cool-men.png) 53% 0 no-repeat;
+	background-size: 210px;
+}
+
+footer .footer-blockquote .author-blockquote {
+	padding-right: 4%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+header .navbar-right {
+	width: 40%;
+	margin: 0 auto;
+	float: none !important;
+	margin-right: -15px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+header .navbar-right a:first-child {
+	margin-bottom: 5px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+.navbar-toggle {
+	padding: 17px 4px;
+	border: none;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #222 !important;
+}
+
+.navbar-toggle .icon-bar {
+	width: 33px;
+	height: 5px;
+}
+
+.navbar-header {
+	float: none;
+	padding: 0 15px;
+}
+
+.navbar-left,
+.navbar-right {
+	float: none !important;
+}
+
+.navbar-toggle {
+	display: block;
+}
+
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+}
+
+.navbar-collapse.collapse {
+	display: none !important;
+}
+
+.navbar-nav {
+	float: none !important;
+	margin-top: 7.5px;
+}
+
+.navbar-nav>li {
+	float: none;
+}
+
+.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.collapse.in {
+	display: block !important;
+}
+
+.navbar-nav .open .dropdown-menu {
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+}
+
+header nav .navbar-nav {
+	margin: 0 auto;
+}
+
+header nav .navbar-right {
+	width: 364px;
+}
+
+}
+
+@media only screen and (max-width: 1064px) {
+
+header .select-nav {
+	width: 46%;
+}
+
+}
+
+@media only screen and (max-width: 1010px) {
+
+header .header-image {
+	height: 450px;
+}
+
+#better .better-img {
+	min-height: 400px;
+}
+
+#memories {
+	min-height: 400px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+footer .logo-in-footer .logotype {
+	overflow: auto;
+	width: 297px;
+	margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.navbar-nav {
+	margin: 0 auto;
+	width: 365px;
+}
+
+.navbar-toggle {
+	padding: 17px 4px;
+	border: none;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #222 !important;
+}
+
+.navbar-toggle .icon-bar {
+	width: 33px;
+	height: 5px;
+}
+
+#traveler .traveler-images {
+	margin-bottom: 200px;
+}
+
+#traveler .traveler-images .image-container {
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#traveler .traveler-images .image-container .sound {
+	left: 0;
+}
+
+#traveler .traveler-images .image-container .burger {
+	left: 23px;
+}
+
+#traveler .traveler-images .image-container .sun {
+	left: 100px;
+}
+
+#traveler .treveler-quote {
+	background: url(../img/cool-men.png) 53% 0 no-repeat;
+	background-size: 210px;
+}
+
+footer .footer-blockquote .author-blockquote {
+	padding-right: 4%;
+}
+
+}
+
+@media (max-width: 665px) {
+
+#better .better-btn::before {
+	height: 66px;
+	position: absolute;
+	z-index: 0;
+	top: -35px;
+}
+
+}
+
+@media only screen and (max-width: 568px) {
+
+header .navbar-brand {
+	padding: 14px 0 !important;
+}
+
+header .navbar-brand img {
+	width: 200px;
+}
+
+h1 {
+	font-size: 35pt !important;
+}
+
+p {
+	font-size: 16pt !important;
+}
+
+#memories h1 {
+	padding: 0 15px;
+}
+
+footer .footer-blockquote p {
+	font-size: 12pt !important;
+}
+
+footer .footer-blockquote .author-blockquote {
+	font-size: 24pt !important;
+}
+
+footer .footer-text p {
+	text-align: center;
+}
+
+footer .logo-in-footer .logotype {
+	width: 200px;
+}
+
+footer .logo-in-footer .logotype .footer-logo img {
+	width: 180px;
+}
+
+footer .logo-in-footer .logotype .footer-quote img {
+	width: 20px;
+}
+
+}
+
+@media only screen and (max-width: 382px) {
+
+.navbar-nav {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.navbar-nav .btn {
+	display: block;
+}
+
+.select-nav {
+	width: 93% !important;
+}
+
+.navbar-right {
+	width: 300px !important;
+}
+
+.navbar-collapse {
+	padding: 0;
+}
+
+.navbar-right a:first-child {
+	margin-bottom: 5px;
+}
+
+.footer-text p {
+	font-size: 12pt !important;
+}
+
+#better .better-btn .btn {
+	display: block;
+	margin: 0 auto;
+	width: 134px;
+	margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 348px) {
+
+footer .footer-menu ul li::after {
+	content: "";
+}
+
+}
+

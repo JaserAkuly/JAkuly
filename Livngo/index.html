@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livngo</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-animate.js"></script>
+    <script src="assets/js/ui-bootstrap-tpls-1.2.5.min.js"></script>
+    <script src="assets/js/angular-ui-route.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+    <div ui-view="header"></div>
+    <div ui-view></div>
+    <div ui-view="footer"></div>
+  </body>
+</html>
