@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0f58894-64ae-44ce-934d-370697629afa" name="Default" comment="" />
+    <list default="true" id="a0f58894-64ae-44ce-934d-370697629afa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/BlendaScript.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/Copperplate.ttc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/GrandHotel-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/QuattrocentoSans-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/QuattrocentoSans-Italic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/QuattrocentoSans-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/Rokkitt.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/burger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/cool-men.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/footer-quote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/logo-footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/sun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/travel-interna.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/travel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/img/woman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/css/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/js/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/js/angular-ui-route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/assets/js/ui-bootstrap-tpls-1.2.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/components/scss/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/components/spriteTemplate.css.handlebars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/views/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/views/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Livngo/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="One-Page.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Livngo/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,8 +172,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -174,6 +212,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -188,22 +246,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1441315409316</updated>
+      <workItem from="1459201929160" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64000" />
+    <option name="totallyTimeSpent" value="168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -233,7 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/forms/contact.js" />
     <entry file="file://$PROJECT_DIR$/assets/plugins/sky-forms-pro/skyforms/ext-captcha.php" />
     <entry file="file://$PROJECT_DIR$/assets/php/sky-forms-pro/demo-contacts-process.php" />
     <entry file="file://$PROJECT_DIR$/assets/css/blocks.css" />
@@ -534,6 +592,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Livngo/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

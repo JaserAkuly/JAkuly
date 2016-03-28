@@ -1,0 +1,722 @@
+@font-face {
+    font-family: BlendaScript;
+    src: url(../fonts/BlendaScript.otf); 
+}
+@font-face {
+    font-family: Copperplate;
+    src: url(../fonts/Copperplate.ttc); 
+}
+@font-face {
+    font-family: GrandHotel;
+    src: url(../fonts/GrandHotel-Regular.otf); 
+}
+@font-face {
+    font-family: QuattrocentoBold;
+    src: url(../fonts/QuattrocentoSans-Bold.otf); 
+}
+@font-face {
+    font-family: QuattrocentoItalic;
+    src: url(../fonts/QuattrocentoSans-Italic.otf); 
+}
+@font-face {
+    font-family: QuattrocentoRegular;
+    src: url(../fonts/QuattrocentoSans-Regular.otf); 
+}
+@font-face {
+    font-family: Rokkitt;
+    src: url(../fonts/Rokkitt.otf); 
+}
+
+$black: #222;
+$white: #fff;
+$blue: #29c;
+$yellow: #fc2;
+
+* {
+	font-family: Rokkitt;
+	font-size: 19px;
+}
+header {
+	.navbar-default {
+	    background-color: #fff;
+	}
+	nav {
+		margin-bottom: 0 !important;
+		.navbar {
+			min-height: 75px;
+		}
+		.navbar-brand {
+			padding: 6px;
+			height: 73px;
+		}
+		.navbar-nav {
+			padding: 16px 15px;
+			.nav-btn {
+				padding: 7px 0;
+				margin-right: 8%;
+				float: left;
+				a {
+					padding: 0 10px;
+					color: $black;
+					font-family: Rokkitt;
+				}
+				a:hover {
+						color: $blue;
+						text-decoration: none;
+					}
+			}
+			.select-nav {
+				float: left;
+				padding: 3px 0;
+				.form-control {
+					border: 2px solid #29c;
+					border-radius: 0;
+					font-size: 19px;
+				}
+			}
+			.btn {
+				padding: 6px 8px;
+			}
+		}
+	}
+	.header-image {
+		height: 800px;
+    	width: 100%;
+		background: url(../img/travel-interna.jpg) no-repeat;
+		background-size: cover;
+
+	}
+	.header-image {
+		.himg-block {
+			float: right;
+			margin-top: 45px;
+			text-align: center;
+			h1 {
+				font-family: GrandHotel;
+				font-size: 50pt;
+			}
+			p {
+				font-size: 24pt;
+			}
+		}
+	}
+}
+
+.btn {
+	padding: 15px 6px;
+	border-radius: 0;
+	font-size: 19px;
+	.btn-border {
+		padding: 11px 40px;
+    	border: 1px solid #fff;
+	}
+}
+
+.btn-default {
+	    color: $white;
+	    background-color: $black;
+	    border-color: transparent;
+}
+.btn-primary {
+	background-color: $blue;
+	border-color: transparent;
+}
+.btn-warning {
+	background-color: $yellow;
+}
+
+
+h1 {
+	font-family: GrandHotel;
+	font-size: 50pt;
+}
+p {
+	font-size: 24pt;
+}
+
+#traveler {
+	.traveler-block {
+		float: right;
+		margin-top: 25px;
+		text-align: center;
+	}
+	.traveler-images {
+		position: relative;
+		margin-top: 70px;
+		img {
+			border: 1px solid #e8e8e8;
+    		border-radius: 50%;
+		}
+		.sound {
+			position: absolute;
+		    left: 67px;
+		    height: auto;
+		    width: 120px;
+		}
+		.burger {
+			position: absolute;
+		    top: 109px;
+		    left: 100px;
+		    width: 100px;
+		    height: auto;
+		}
+		.sun {
+			position: absolute;
+		    top: 33px;
+		    left: 201px;
+		    height: auto;
+		    width: 120px;
+		}
+		p {
+			position: relative;
+			width: 228px;
+    		margin: 0 auto;
+		    top: 210px;
+		    font-family: QuattrocentoItalic;
+		    font-size: 15pt;
+		    color: #99a;
+		}
+	}
+	.treveler-quote {
+		position: relative;
+		width: 100%;
+		margin-top: 90px;
+		background: url(../img/cool-men.png) no-repeat;
+	    background-position: 50% 0;
+	    background-size: 210px;
+		transform-origin: right center;
+		.trevel-cont {
+			padding-top: 175px;
+    		text-align: center;
+		}
+	}
+	.treveler-quote::after{
+	    content: '';
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    top: 40px;
+	    background-color: #fc0;
+	    z-index: -1;
+	    bottom: 0;
+	    transform-origin: right bottom;
+	    transform: skewY(-2deg);
+	}
+} 
+
+#better {
+	.better-img {
+		min-height: 700px;
+	    height: 100%;
+	    width: 100%;
+	    background: url(../img/travel.jpg) no-repeat;
+	    background-size: cover;
+		.better-block {
+			margin-top: 40px;
+			text-align: center;
+			h1, p {
+				color: $white;
+			}
+		}
+	}
+	.better-btn {
+		position: relative;
+		width: 100%;
+		padding-top: 70px;
+    	padding-bottom: 70px;
+    	h1 {
+    		text-align: center;
+    	}
+		p {
+			a {
+				margin-left: 2%;
+			}
+			text-align: center;
+		}
+		.btn {
+			padding: 15px 6px;
+			.btn-border {
+    			padding: 12px 51px;
+    		}
+		}
+	}
+	.better-btn::before{
+	    content: '';
+	    width: 100%;
+	    height: 66px;
+	    position: absolute;
+	    background-color: #fff;
+	    z-index: 0;
+	    top: -66px;
+	    bottom: 0;
+	    transform-origin: right bottom;
+	    transform: skewY(-2deg);
+	}
+	.better-btn::after{
+	    content: '';
+	    width: 100%;
+	    height: 65px;
+	    position: absolute;
+	    background-color: #fff;
+	    bottom: 0;
+	    z-index: 1;
+	    transform-origin: right bottom;
+	    transform: skewY(-2deg);
+	}
+}
+
+#memories {
+	position: relative;
+	min-height: 700px;
+	height: 100%;
+	width: 100%;
+	background: url(../img/woman.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	h1 {
+		position: absolute;
+		bottom: 0;
+		color: #fff;
+	}
+}
+
+#waiting {
+	.waiting-content {
+		overflow: auto;
+		margin: 90px 0 75px 0;
+		text-align: center;
+		.image-waiting {
+			img {
+				width: 210px;
+			    height: auto;
+			}
+		}
+		.waiting-text { 
+			h1 {
+				hr {
+			    	margin-top: 0;
+			    	margin-bottom: 0;
+				    width: 70%;
+				    border: 0;
+				    border-top: 1px solid $yellow;
+			    }
+			}
+		}
+	}
+}
+
+footer {
+	background: #29c;
+	.logo-in-footer {
+		overflow: auto;
+		.footer-logo {
+			float: left;
+			margin-top: 30px;
+		}
+		.footer-quote {
+			img {
+				height: auto;
+	    		width: 45px;
+			}
+		}
+	}
+	.footer-blockquote {
+		margin-top: 37px;
+		p {
+			margin: 0;
+			font-family: QuattrocentoRegular;
+			font-size: 12pt;
+			color: $white;
+			.gold {
+				color: $yellow;
+			}
+		}
+		.author-blockquote {
+			float: right;
+			font-family: GrandHotel;
+			font-size: 26pt;
+		}
+	}
+	.footer-menu {
+		margin-top: 85px;
+		text-align: center;
+		ul {
+			li {
+				display: inline-block;
+				color: $white;
+				a {
+					font-family: QuattrocentoRegular;
+					font-size: 12pt;
+					color: $white;
+				}
+			}
+			li::after {
+				content: "|";
+				padding: 0 20px;
+			}
+			li:last-child::after {
+				content: "";
+			}
+		}
+	}
+	.face {
+		margin-top: 10px;
+		text-align: center;
+		img {
+			height: auto;
+			width: 50px;
+		}
+	}
+	.footer-text {
+		margin: 15px 0 50px 0;
+		p {
+			font-family: QuattrocentoRegular;
+			font-size: 12pt;
+			color: $white;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	header {
+		.container {
+			width: inherit;
+		}
+
+		nav {
+			.navbar-nav { 
+				.nav-btn {
+					margin-right: 0%;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1064px) {
+	header {
+		.select-nav {
+			width: 46%;
+		}
+	}
+}
+
+@media only screen and (max-width: 1010px) {
+	header {
+		.header-image {
+			height: 450px;
+		}
+	}
+
+	#better {
+		.better-img {
+			min-height: 400px;
+		}
+	}
+
+	#memories {
+		min-height: 400px;
+	}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#traveler {
+		.traveler-images {
+			margin-bottom: 200px;
+			.sound {
+				left: 235px;
+			}
+			.burger {
+				left: 280px;
+			}
+			.sun {
+				left: 390px;
+			}
+		}
+		.treveler-quote {
+    		background: url(../img/cool-men.png) 53% 0 no-repeat;
+    		background-size: 210px;
+    	}
+	}
+	footer {
+		.footer-blockquote {
+			.author-blockquote {
+				padding-right: 4%;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	header {
+		.navbar-right {
+		    width: 40%;
+		    margin: 0 auto;
+		    float: none !important;
+		    margin-right: -15px;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	header {
+		.navbar-right {
+			a:first-child {
+				margin-bottom: 5px;
+			}
+	    	
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	footer {
+		.logo-in-footer {
+			.logotype {
+				overflow: auto;
+				width: 297px;
+    			margin: 0 auto;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		margin: 0 auto;
+	    width: 365px;
+	}
+	.navbar-toggle {
+	    padding: 17px 4px;
+	    border: none;
+	    .icon-bar {
+	    	background-color: $black !important;
+	    }
+	}
+	.navbar-toggle .icon-bar {
+		width: 33px;
+    	height: 5px;
+	}
+	
+	#traveler {
+		.traveler-images {
+			margin-bottom: 200px;
+			.image-container {
+				position:relative;
+				width: 200px;
+    			margin: 0 auto;
+				.sound {
+					left: 0;
+				}
+				.burger {
+					left: 23px;
+				}
+				.sun {
+					left: 100px;
+				}
+			}
+		}
+		.treveler-quote {
+    		background: url(../img/cool-men.png) 53% 0 no-repeat;
+    		background-size: 210px;
+    	}
+	}
+
+	footer {
+		.footer-blockquote {
+			.author-blockquote {
+				padding-right: 4%;
+			}
+		}
+	}
+}
+
+@media (max-width: 665px) {
+	#better {
+		.better-btn::before {
+		    height: 66px;
+		    position: absolute;
+		    z-index: 0;
+		    top: -35px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.navbar-toggle {
+	    padding: 17px 4px;
+	    border: none;
+	    .icon-bar {
+	    	background-color: $black !important;
+	    }
+	}
+	.navbar-toggle .icon-bar {
+		width: 33px;
+    	height: 5px;
+	}
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+        padding: 0 15px;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+
+    header {
+    	nav {
+			.navbar-nav {
+				margin: 0 auto;
+			}
+			.navbar-right {
+				width: 364px;
+			}
+    	}
+    } 
+
+}
+
+@media only screen and (max-width: 568px ) {
+	header {
+		.navbar-brand {
+			padding: 14px 0 !important;
+			img {
+				width: 200px;
+			}
+		}
+	}
+	h1 {
+		font-size: 35pt !important;
+	}
+	p {
+		font-size: 16pt !important;
+	}
+	#memories {
+		h1 {
+			padding: 0 15px;
+		}
+	}
+	footer { 
+		.footer-blockquote {
+			p {
+				font-size: 12pt !important;
+			}
+			.author-blockquote {
+				font-size: 24pt !important;
+			}
+		}
+		.footer-text {
+			p {
+				text-align: center;
+			}
+		} 
+		.logo-in-footer {
+			.logotype {
+				width: 200px;
+				.footer-logo {
+					img {
+						width: 180px;
+					}
+				}
+				.footer-quote {
+					img {
+						width: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 382px) {
+	.navbar-nav {
+		margin: 0 auto;
+		width: 200px;
+		.btn {
+			display: block;
+		}
+	}
+	.select-nav {
+			width: 93% !important;
+	}
+	.navbar-right {
+			width: 300px !important;
+	}
+	.navbar-collapse {
+		padding: 0;
+	}
+	.navbar-right {
+		a:first-child {
+			margin-bottom: 5px;
+		}
+	}
+	.footer-text { 
+		p { 
+			font-size: 12pt !important;
+		}
+	}
+	#better {
+		.better-btn { 
+			.btn {
+				display: block;
+			    margin: 0 auto;
+			    width: 134px;
+			    margin-top: 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 348px) {
+	footer {
+		.footer-menu {
+			ul {
+				li::after {
+					content: "";
+				}
+			}
+		}
+	}
+}
