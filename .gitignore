@@ -1,0 +1,39 @@
+.vagrant/*
+.DS_Store
+
+# modules
+node_modules
+public/bower_components
+
+# Compiled Files
+!/public/prod-index.html
+
+# CSS/SCSS
+/public/css/_src/.sass-cache/**/*.scssc
+/**/*.scssc
+
+# Logs
+logs
+*.log
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Merge conflict stuff.
+*.orig
+
+#Emacs Stuff
+*~
+*\#
+.\#*
+
+# IDEA IDEs
+.idea
+
+# User assets
+tmp
+
+.capistrano
+!.gitkeep
+
+/Livngo
